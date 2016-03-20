@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIViewController+Page.h
 //  Ftue
 //
 //  Created by Spencer Kamchee on 3/20/16.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate>
-
+@interface UIViewController (Page)
+@property(strong,nonatomic)NSNumber* pageNumber;
 
 @end
-

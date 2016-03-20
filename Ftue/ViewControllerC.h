@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControllerC.h
 //  Ftue
 //
 //  Created by Spencer Kamchee on 3/20/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate>
-
+@interface ViewControllerC : UIViewController
 
 @end
-
