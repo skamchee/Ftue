@@ -30,10 +30,10 @@
 		DB61AC821C9F040900D89514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB61AC851C9F040900D89514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB61AC871C9F040900D89514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB61AC901C9F07AF00D89514 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerA.h; path = ../ViewControllerA.h; sourceTree = "<group>"; };
-		DB61AC911C9F07AF00D89514 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerA.m; path = ../ViewControllerA.m; sourceTree = "<group>"; };
-		DB61AC931C9F07BB00D89514 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerB.h; path = ../ViewControllerB.h; sourceTree = "<group>"; };
-		DB61AC941C9F07BB00D89514 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerB.m; path = ../ViewControllerB.m; sourceTree = "<group>"; };
+		DB61AC901C9F07AF00D89514 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		DB61AC911C9F07AF00D89514 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		DB61AC931C9F07BB00D89514 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		DB61AC941C9F07BB00D89514 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		DB61AC961C9F07C800D89514 /* ViewControllerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerC.h; sourceTree = "<group>"; };
 		DB61AC971C9F07C800D89514 /* ViewControllerC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerC.m; sourceTree = "<group>"; };
 		DB61AC991C9F638400D89514 /* UIViewController+Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Page.h"; sourceTree = "<group>"; };
@@ -324,6 +324,7 @@
 				DB61AC8C1C9F040900D89514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
