@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Roy-gO-tDn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Roy-gO-tDn">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +16,20 @@
                     <view key="view" contentMode="scaleToFill" id="2xQ-R8-48y">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="diC-d4-lWP">
+                                <rect key="frame" x="281" y="563" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
                         <color key="backgroundColor" red="0.54990409780000005" green="0.85162943599999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="diC-d4-lWP" firstAttribute="centerX" secondItem="2xQ-R8-48y" secondAttribute="centerX" id="1iF-DK-HoN"/>
+                            <constraint firstItem="EcY-sX-97Z" firstAttribute="top" secondItem="diC-d4-lWP" secondAttribute="bottom" id="ZyL-Kx-zjn"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pageControl" destination="diC-d4-lWP" id="8bW-Aq-lcs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaY-6t-wFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

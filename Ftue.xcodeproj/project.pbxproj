@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC208B3F1CE8D15500008E84 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AC208B3E1CE8D15500008E84 /* UIView+AutoLayout.m */; };
 		DB61AC781C9F040900D89514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB61AC771C9F040900D89514 /* main.m */; };
 		DB61AC7B1C9F040900D89514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB61AC7A1C9F040900D89514 /* AppDelegate.m */; };
 		DB61AC7E1C9F040900D89514 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB61AC7D1C9F040900D89514 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC208B3D1CE8D15500008E84 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		AC208B3E1CE8D15500008E84 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		DB61AC731C9F040900D89514 /* Ftue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ftue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB61AC771C9F040900D89514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB61AC791C9F040900D89514 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				DB61AC7A1C9F040900D89514 /* AppDelegate.m */,
 				DB61AC7C1C9F040900D89514 /* ViewController.h */,
 				DB61AC7D1C9F040900D89514 /* ViewController.m */,
+				AC208B3D1CE8D15500008E84 /* UIView+AutoLayout.h */,
+				AC208B3E1CE8D15500008E84 /* UIView+AutoLayout.m */,
 				DB61AC7F1C9F040900D89514 /* Main.storyboard */,
 				DB61AC821C9F040900D89514 /* Assets.xcassets */,
 				DB61AC841C9F040900D89514 /* LaunchScreen.storyboard */,
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB61AC9B1C9F638400D89514 /* UIViewController+Page.m in Sources */,
+				AC208B3F1CE8D15500008E84 /* UIView+AutoLayout.m in Sources */,
 				DB61AC921C9F07AF00D89514 /* ViewControllerA.m in Sources */,
 				DB61AC7E1C9F040900D89514 /* ViewController.m in Sources */,
 				DB61AC981C9F07C800D89514 /* ViewControllerC.m in Sources */,
